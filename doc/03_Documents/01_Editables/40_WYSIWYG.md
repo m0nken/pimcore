@@ -8,7 +8,7 @@ Similar to Textarea and Input you can use the WYSIWYG editable in the templates 
 
 | Name           | Type     | Description                                                                                                                               |
 |----------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| `height`       | bool     | Set true to reload the page in editmode after selecting an item                                                                           |
+| `height`       | integer  | Height of the textarea in pixel                                                                           |
 | `width`        | integer  | Width of the select box in pixel                                                                                                          |
 | `class`        | string   | A CSS class that is added to the surrounding container of this element in editmode                                                        |
 | `placeholder`  | string   | A text shown in the field when it is empty to guide the user about the expected type of input.                                            |
@@ -21,7 +21,7 @@ Similar to Textarea and Input you can use the WYSIWYG editable in the templates 
 {{ pimcore_wysiwyg("myWYSIWYG", {
     "height": 600,
     "width": 1100,
-    "placeholder": "Enter you content"
+    "placeholder": "Enter your content"
 }) }}
 ```
 
