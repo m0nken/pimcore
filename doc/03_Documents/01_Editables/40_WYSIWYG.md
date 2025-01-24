@@ -8,8 +8,8 @@ Similar to Textarea and Input you can use the WYSIWYG editable in the templates 
 
 | Name           | Type     | Description                                                                                                                               |
 |----------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| `height`       | integer  | Height of the WYSIWYG editable in pixel                                                                           |
-| `width`        | integer  | Width of the WYSIWYG editable in pixel                                                                                                          |
+| `height`       | integer  | Height of the WYSIWYG editable in pixel                                                                                                   |
+| `width`        | integer  | Width of the WYSIWYG editable in pixel                                                                                                    |
 | `class`        | string   | A CSS class that is added to the surrounding container of this element in editmode                                                        |
 | `placeholder`  | string   | A text shown in the field when it is empty to guide the user about the expected type of input.                                            |
 | `defaultValue` | string   | A default value for the available options. Note: This value needs to be saved before calling getData() or use setDataFromResource().      |
